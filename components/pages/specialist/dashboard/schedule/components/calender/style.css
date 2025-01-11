@@ -1,0 +1,200 @@
+.fc-dayGridMonth-button {
+  background: red;
+  color: black;
+  border: 3px solid white;
+}
+
+.fc-header-toolbar,
+.fc-toolbar,
+.fc-toolbar-ltr {
+  margin-bottom: 0 px;
+}
+
+/* .fc-col-header-cell {
+  padding: 8px !important;
+  border-radius: 8px; */
+/* background: var(--Backgrounds-Secondary-Background, #fff) !important; */
+/* background: white !important;
+  background-color: white !important; */
+/* } */
+
+.fc-scrollgrid {
+  background: #f3f6ff;
+}
+
+.fc-day {
+  border-radius: 8px !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+  height: 150px;
+  box-sizing: border-box;
+}
+.fc-col-header-cell {
+  height: auto !important;
+  background-color: white !important;
+  padding: 4px 0px !important;
+  border-radius: 8px;
+}
+.fc-scrollgrid {
+  border-radius: 6px;
+}
+.fc-daygrid-day-top {
+  display: block !important;
+}
+.fc-daygrid-day-frame:hover {
+  border: 1px solid #6968ec;
+  box-sizing: border-box;
+  border-radius: 8px !important;
+}
+
+.fc-day-disabled {
+  background-color: #f5f5f5; /* Light grey color for disabled days */
+  pointer-events: none; /* Disable clicking on these days */
+  opacity: 0.5; /* Make it visually clear that the day is disabled */
+}
+
+.fc-time-disabled {
+  pointer-events: none; /* Disable clicking on time slots */
+  background-color: #f5f5f5; /* Light grey color for disabled time slots */
+  opacity: 0.5;
+}
+/* day button  */
+.fc-dayGridMonth-button {
+}
+/* to make gap betweeen cell of table */
+table {
+  border-collapse: separate !important ;
+  border-spacing: 2px !important;
+  border: none !important;
+}
+
+.fc-scroller {
+  overflow-y: auto !important;
+}
+
+thead tr .fc-day-today {
+  border-radius: 8px !important;
+  background: var(
+    --Gradient,
+    linear-gradient(87deg, #fee7e7 0%, #e7eff7 49.5%, #e4deff 100%)
+  ) !important;
+}
+
+.fc-header-toolbar {
+  position: relative !important;
+  margin-bottom: 0px !important;
+}
+.fc-header-toolbar .fc-toolbar-chunk:nth-child(3) {
+  /* position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important; */
+}
+/* toolbar fc-buttons styles */
+.fc-dayGridMonth-button,
+.fc-timeGridWeek-button,
+.fc-timeGridDay-button,
+.fc-next-button,
+.fc-prev-button,
+.fc-today-button {
+  border-radius: 12px 12px 0px 0px !important;
+  background: transparent !important;
+  color: var(--Text-500, #71788e) !important;
+  border: none !important;
+  padding: 8px 24px !important;
+  border: none !important;
+}
+.fc-next-button,
+.fc-prev-button {
+  padding: 0px !important;
+}
+/* toolbar center button  */
+.fc-button-active {
+  color: var(--accent, #6968ec) !important;
+  /* background: #f3f6ff; */
+  background: #f3f6ff !important;
+}
+.fc-listWeek-button {
+  display: none !important;
+}
+.fc-button:focus {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* set gap between left and right icon  */
+.fc-header-toolbar > div:first-child > div {
+  display: flex !important; /* Enable flexbox */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  gap: 16px !important;
+}
+
+#fc-dom-86 {
+  color: var(--Text-700, #3e4147);
+  /* 14, Mont, Regular */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+}
+/* event time class */
+.fc-event-time {
+  color: var(--Bg-White, #fff) !important;
+  font-family: Montserrat !important;
+  font-size: 9px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 100% !important; /* 9px */
+  letter-spacing: 0.18px !important;
+  background-color: var(--accent, #6968ec);
+  padding: 4px 8px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px !important;
+}
+.fc-event-title,
+.fc-event {
+  overflow: hidden;
+  color: var(--accent, #6968ec);
+  text-overflow: ellipsis;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 16.8px */
+  background: var(--Backgrounds-Secondary-Background, #fff);
+  display: flex;
+  align-items: center;
+}
+/* dot on right side of time  */
+.fc-daygrid-event-dot {
+  display: none;
+}
+/* message of the appointment */
+.fc-event-title-container {
+  display: flex;
+  align-items: center;
+}
+/* registered appointment */
+.fc-event-draggable {
+  border: none;
+  background-color: var(--Bg-White, #fff) !important;
+}
+
+.fc-popover-body {
+  background: white;
+}
+/* see more a[pointment background */
+.fc-popover-header {
+  background-color: white !important;
+}
+
+.day-header {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}

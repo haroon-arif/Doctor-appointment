@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.overflowY::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background-color: transparent;
+}
+
+.overflowY::-webkit-scrollbar-thumb {
+  background-color: rgb(215, 215, 216);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.overflowY::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.overflowY::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(140, 140, 141);
+  cursor: pointer;
+}
+
+.testimonila-bg{
+  background: linear-gradient(86.94deg, #FEE7E7 0%, #E7EFF7 49.5%, #E4DEFF 100%);
+}
+
+.book-btn{
+  background: linear-gradient(86.94deg, #FEE7E7 0%, #E7EFF7 49.5%, #E4DEFF 100%);
+}
+.banner-overlay{
+  background: linear-gradient(180deg, rgba(32, 31, 149, 0) 0%, #282754 100%);
+}
+.hero-search{
+  backdrop-filter: blur(90px);
+
+box-shadow: 0px 12px 28px 0px #0000000A;
+
+}

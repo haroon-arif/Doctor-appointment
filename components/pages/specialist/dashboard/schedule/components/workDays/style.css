@@ -1,0 +1,108 @@
+.custom-calendar {
+  width: 400px;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 24px;
+  border: none !important;
+  font-family: var(--font-monts);
+}
+
+.custom-calendar .react-calendar__navigation {
+  display: flex;
+  border-bottom: 1px solid #f1f2f3;
+}
+
+.custom-calendar .react-calendar__navigation__label {
+  text-decoration: none;
+  color: #282828 !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.custom-calendar .react-calendar__navigation__arrow {
+  font-size: 20px;
+}
+
+/* .custom-calendar  .react-calendar_month-view_weekdays abbr[title] {
+  text-decoration: none;
+} */
+
+.custom-calendar .react-calendar__tile,
+.react-calendar__tile--now {
+  padding: 10px 5px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #f2f5ff;
+  color: #6968ec;
+  margin: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.custom-calendar .react-calendar__tile:hover,
+.custom-calendar .react-calendar__tile--active {
+  background-color: #6968ec !important;
+  color: white !important;
+}
+
+.react-calendar__month-view__weekdays abbr:where([title]) {
+  text-decoration: none !important;
+  color: #71788e;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.react-calendar__month-view__weekdays {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+  padding: 10px 0;
+}
+
+/* .custom-calendar  .react-calendar__month-view__days__day--weekend {
+  color: #8f95a9 !important;
+  background-color: #f1f2f3 !important;
+} */
+
+.custom-calendar .react-calendar__month-view__days__day--day-off {
+  color: #8f95a9 !important;
+  background-color: #f1f2f3 !important;
+}
+
+.custom-calendar
+  .react-calendar__month-view__days__day--weekend.react-calendar__tile--active {
+  background-color: #6968ec !important;
+  color: white !important;
+}
+
+.custom-calendar
+  small.-calendar
+  .react-calendar__month-view__days__day--neighboringMonth {
+  color: #aeb2bf !important;
+  background-color: transparent !important;
+}
+
+.custom-calendar .react-calendar__month-view__days__day {
+  flex: 0 0 13% !important;
+}
+
+.react-calendar__navigation__prev2-button,
+.react-calendar__navigation__next2-button {
+  display: none;
+}
+
+.custom-calendar .react-calendar__navigation__label {
+  pointer-events: none;
+}
+
+.custom-calendar
+  .react-calendar__month-view__days__day--weekend.react-calendar__tile--active.unselected_today {
+  background-color: #9b9bee !important;
+}
+
+/* .react-calendar__month-view */
+/* .react-calendar__year-view */
