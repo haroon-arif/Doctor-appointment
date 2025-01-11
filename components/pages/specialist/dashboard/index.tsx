@@ -122,6 +122,7 @@ const Index = () => {
 
       {/* Specialist work days modal */}
       {showWorkDaysModal && (
+        //@ts-ignore
         <WorkDays closeModal={() => setShowWorkDaysModal(false)} />
       )}
     </div>

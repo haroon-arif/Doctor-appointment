@@ -10,7 +10,7 @@ const MissionSection = () => {
   };
 
   return (
-    <div className="flex justify-between items-center py-8 max-w-laptop mx-auto">
+    <div className="flex justify-between items-center py-12 max-w-laptop mx-auto">
       <div className='w-[60%] border-r-[1px] border-[#E3E5EC] pr-52'>
         <h2 className="text-[82px] leading-[98.4px] font-bold mb-4">Our mission</h2>
         <p className="font-semibold text-700 text-[42px] relative left-24">
